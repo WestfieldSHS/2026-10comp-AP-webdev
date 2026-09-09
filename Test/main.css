@@ -31,9 +31,8 @@ ul li a:hover {
   text-decoration-style: solid;
 }
 
-.button a {
 
-}
+
 img {
   width: 200px;
   height: 200px;
@@ -67,9 +66,6 @@ body {
     text-align: center;
 }
 
-
-
-
 ul {
     background-color: #000000;
     margin: 0;
@@ -92,6 +88,45 @@ li a:hover {
 }
 
 
+
+.welcome {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 80px 20px;
+    border-bottom: 4px solid #d4af37;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    font-size: 18px;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #000000;
+    text-decoration: none;
+    padding: 14px 25px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
+
+
+
+
 h2 {
     color: #000000;
     margin-top: 45px;
@@ -104,7 +139,6 @@ h2 {
     gap: 25px;
     margin: 40px;
 }
-
 
 
 
@@ -137,6 +171,25 @@ h2 {
 .product a:hover {
     color: #d4af37;
 }
+
+
+
+.about {
+    background-color: #f5f5f5;
+    padding: 40px;
+    margin-top: 50px;
+    border-top: 2px solid #d4af37;
+}
+
+.about p {
+    color: #555555;
+    font-size: 17px;
+}
+
+
+
+
+
 
 
 
